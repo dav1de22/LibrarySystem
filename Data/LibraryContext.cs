@@ -7,7 +7,7 @@ namespace LibrarySystem.Data
     {
         public DbSet<Book> Books {  get; set; }
         public DbSet<Member> Members {  get; set; }
-        public DbSet<BorrowRecord> borrowRecords { get; set; }
+        public DbSet<BorrowRecord> BorrowRecords { get; set; }
 
         public LibraryContext(DbContextOptions<LibraryContext> options) : base(options) { }
 
